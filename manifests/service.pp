@@ -1,6 +1,6 @@
 class cyrus::service {
 
-  service { 'cyrus2.2':
+  service { 'cyrus-imapd':
     ensure     => running,
     enable     => true,
     hasstatus  => true,
