@@ -7,6 +7,9 @@ class cyrus::config (
   $ldap_bind_dn,
   $ldap_bind_pw,
   $cyrus_sieve_bind,
+  $admin_users,
+  $userprefix,
+  $sharedprefix,
 ) {
 
   include cyrus::variables
